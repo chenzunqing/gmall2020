@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" filepath="$PROJECT_DIR$/gmall-web-util/gmall-web-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/gmall2020.iml" filepath="$PROJECT_DIR$/gmall2020.iml" />
       <module fileurl="file://$PROJECT_DIR$/gware-manage/gware-manage.iml" filepath="$PROJECT_DIR$/gware-manage/gware-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8_day/java8_day.iml" filepath="$PROJECT_DIR$/java8_day/java8_day.iml" />
       <module fileurl="file://$PROJECT_DIR$/fastdfs-client-java/src/main/main.iml" filepath="$PROJECT_DIR$/fastdfs-client-java/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/fastdfs-client-java/src/test/test.iml" filepath="$PROJECT_DIR$/fastdfs-client-java/src/test/test.iml" />
     </modules>

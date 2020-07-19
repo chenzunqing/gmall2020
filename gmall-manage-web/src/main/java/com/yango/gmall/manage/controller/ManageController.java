@@ -3,10 +3,7 @@ package com.yango.gmall.manage.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.yango.gmall.bean.*;
 import com.yango.gmall.service.ManageService;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -30,6 +27,7 @@ public class ManageController {
     // http://localhost:8082/getCatalog2?catalog1Id=2
     @RequestMapping("getCatalog2")
     public List<BaseCatalog2> getCatalog2(String catalog1Id){
+
         return manageService.getCatalog2(catalog1Id);
     }
 
@@ -64,6 +62,7 @@ public class ManageController {
 
     @RequestMapping("baseSaleAttrList")
     public List<BaseSaleAttr> baseSaleAttrList(){
+
         return manageService.getBaseSaleAttrList();
     }
 }

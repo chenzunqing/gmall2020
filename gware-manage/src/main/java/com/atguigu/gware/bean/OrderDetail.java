@@ -1,7 +1,5 @@
 package com.atguigu.gware.bean;
 
-import org.codehaus.groovy.runtime.powerassert.SourceText;
-
 import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.Transient;
@@ -98,6 +96,7 @@ public class OrderDetail implements Serializable{
     }
 
     public void testWYP(){
-        System.out.println("test1");
+
+        System.out.println("chenzunqiu");
     }
 }

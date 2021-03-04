@@ -94,4 +94,9 @@ public class OrderDetail implements Serializable{
     public void setHasStock(String hasStock) {
         this.hasStock = hasStock;
     }
+
+    public void testWYP(){
+
+        System.out.println("chenzunqiu");
+    }
 }

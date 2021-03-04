@@ -97,6 +97,11 @@ public class OrderDetail implements Serializable{
 
     public void testWYP(){
 
-        System.out.println("chenzunqiu");
+        System.out.println("chenzunqi788u");
     }
+    public void testWYP2(){
+
+        System.out.println("chenzunqi788大幅度发u");
+    }
+
 }
